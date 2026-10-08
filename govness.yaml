@@ -1,0 +1,18 @@
+# Fictional demo block: see README.md.
+schema_version: 1
+id: "ke-digital-public-services.swahili-public-service-faq"
+name: "Swahili public-service FAQ skill"
+type: "skill"
+version: "0.9.2"
+summary: "Answers common questions about national services in Swahili and English, citing the official page."
+description: "A skill with 400 curated question–answer pairs and the rules for citing the official source page, so an assistant answers in the citizen's language without inventing procedures."
+publisher:
+  environment: "ke-digital-public-services"
+  body: "Directorate of Digital Public Services"
+languages: ["sw", "en"]
+license: "CC-BY-4.0"
+interfaces:
+  protocol: "other"
+links:
+  repo: "https://github.com/govness-demo/swahili-public-service-faq"
+domains: ["citizen-engagement"]
